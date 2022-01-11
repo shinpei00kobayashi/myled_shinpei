@@ -2,15 +2,15 @@
 raspi3とブレッドボードを用いてledを発光させ、ユニークな表現をします
 
 # 製作内容
-・0～3の値をデバイスファイルに入力すると、3つのledが以下の通りに点灯する
+・0,1,3,4の値をデバイスファイルに入力すると、3つのledが以下の通りに点灯する
 
 0=all off 　"すべてのledが消灯"
 
 1=all on　"すべてのledが点灯"
 
-2=wave   　"波のように順番に点灯"
+3=wave   　"波のように順番に点灯"
 
-3=Brake lamp 5time Sign of love　"ledをブレーキランプのように五回点滅させ、dmesg上に「ア,イ,シ,テ,ル」の文字を表示させる"
+4=Brake lamp 5time Sign of love　"ledをブレーキランプのように五回点滅させ、dmesg上に「ア,イ,シ,テ,ル」の文字を表示させる"
 
 ※4の動作は有名な曲の歌詞にあるもので、ドライブデートをした後にブレーキランプで愛を伝えるという、カップルの間で昔に流行った行為
 
@@ -57,10 +57,10 @@ echo 1 > /dev/myled0
 
 ・weve
 ```bash
-echo 2 > /dev/myled0
+echo 3 > /dev/myled0
 ```
 
 ・Brake lamp 5time Sign of love
 ```bash
-echo 3 > /dev/myled0
+echo 4 > /dev/myled0
 ```
