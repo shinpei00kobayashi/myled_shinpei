@@ -1,3 +1,16 @@
+/*!
+[myled_shinpei]
+Copyright (c) [2022][Kobayashi Shinpei]
+
+This software is released under the  [GNU GENERAL PUBLIC LICNSE Ver3.0]
+
+see[http://www.gnu.org/licenses/]
+
+*/
+
+
+
+
 #include<linux/module.h>
 #include<linux/fs.h>
 #include<linux/cdev.h>
