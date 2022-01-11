@@ -24,3 +24,7 @@ raspi3とブレッドボードを用いてledを発光させ、ユニークな�
 ピンの割り当ては以下のとおりである
 ![S__4202498](https://user-images.githubusercontent.com/97512094/148928081-f8ed5f7a-3182-412f-9068-c2737d1d4c4d.jpg)
 ![EF8AFF13-6BC6-4C11-8036-9CC0B0D20851](https://user-images.githubusercontent.com/97512094/148929031-1c8dc758-c728-4a38-815a-cc81d3c17702.jpg)
+
+# 実験動画
+https://youtu.be/pJsVPyUdBnE
+
