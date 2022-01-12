@@ -130,7 +130,7 @@ else if(c == '2'){ //crouch start
 
 
 
-・wve　　(波)
+・wave　　(波)
 ```bash
 echo 3 > /dev/myled0
 ```
