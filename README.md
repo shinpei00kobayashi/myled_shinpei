@@ -36,33 +36,33 @@ https://youtu.be/pJsVPyUdBnE
 ・プログラム起動
 ```bash
 
-$git clone https://github.com/shinpei00kobayashi/myled_shinpei.git 　//リポジトリの複製
+git clone https://github.com/shinpei00kobayashi/myled_shinpei.git
 
-$cd myled_shinpei                                                    //任意のファイルに移動
+cd myled_shinpei
 
-$make                                                                //コンパイル
+make
 
-$sudo insmod myled.ko                                                //カーネルモジュールのロード
+sudo insmod myled.ko
 
-$sudo chmod 666 /dev/myled0　　　　　　　　　　　　　　　　　　　　　 //書き込み、読み取り権限をすべてのユーザに付与
+sudo chmod 666 /dev/myled0
 ```
 
 ・all off　(消灯)
 ```bash
-$echo 0 > /dev/myled0
+echo 0 > /dev/myled0
 ```
 
 ・all on　(全灯)
 ```bash
-$echo 1 > /dev/myled0
+echo 1 > /dev/myled0
 ```
 
 ・weve　　(波)
 ```bash
-$echo 3 > /dev/myled0
+echo 3 > /dev/myled0
 ```
 
 ・Brake lamp 5time Sign of love　(ブレーキランプ五回点滅アイシテルのサイン)
 ```bash
-$echo 4 > /dev/myled0
+echo 4 > /dev/myled0
 ```
