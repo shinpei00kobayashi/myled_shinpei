@@ -38,7 +38,9 @@ https://youtu.be/pJsVPyUdBnE
 
 git clone https://github.com/shinpei00kobayashi/myled_shinpei.git
 
+```bash
 cd myled_shinpei
+```
 
 make
 
