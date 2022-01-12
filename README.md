@@ -28,7 +28,7 @@ raspi3とブレッドボードを用いてledを発光させ、ユニークな�
 ![D68F3A62-92DB-46A8-AF5C-536EB00DD630](https://user-images.githubusercontent.com/97512094/149068936-eb923208-2dee-45aa-b282-df5d7be5cbd6.jpg)
 
 # 実験動画
-https://youtu.be/pJsVPyUdBnE
+https://youtu.be/PcRT9q9oGfs
 
 
 # 実行方法
