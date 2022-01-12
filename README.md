@@ -35,17 +35,22 @@ https://youtu.be/pJsVPyUdBnE
 
 ・プログラム起動
 ```bash
-
 git clone https://github.com/shinpei00kobayashi/myled_shinpei.git
+```
 
 ```bash
 cd myled_shinpei
 ```
 
+```bash
 make
+```
 
+```bash
 sudo insmod myled.ko
+```
 
+```bash
 sudo chmod 666 /dev/myled0
 ```
 
